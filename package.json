@@ -1,0 +1,26 @@
+{
+  "name": "javascript-learn",
+  "version": "1.0.0",
+  "description": "Learning Javascript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohanmadhana/javascript-learn.git"
+  },
+  "author": "sohan-madhana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sohanmadhana/javascript-learn/issues"
+  },
+  "homepage": "https://github.com/sohanmadhana/javascript-learn#readme",
+  "dependencies": {
+    "axios": "^1.7.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

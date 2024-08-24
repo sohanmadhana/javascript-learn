@@ -20,3 +20,31 @@ console.log(interestRate)
 let firstName = 'Sohan'; //String literal
 let age = 30; //number literal
 let isApproved = true; //boolean literal
+
+
+
+const fs = require('fs')
+
+fs.readFile("./example-write.txt","utf8",(err,data) =>{
+    if (err){
+        throw err;
+    }
+    console.log(data);
+});
+
+fs.writeFile("./example-write.txt","Hello!! This is a tutorial from Airtribe regarding writing to a file using filsesystem module.", (err) => {
+    if (err) {
+        throw err;
+    }
+    console.log("file written successfully!")
+});
+
+//path module
+
+const path = require("path");
+
+console.log(path.extname("index.html"));
+
+const filepath = path.join("data","text","example.txt");
+console.log(filepath)
+console.log("end")
